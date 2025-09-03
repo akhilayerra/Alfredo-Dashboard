@@ -1,0 +1,246 @@
+/* src/App.css - Dark theme styling to match screenshots */
+
+.App {
+  background-color: #1a1a1a;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #0f0f0f;
+}
+
+.logo {
+  color: #00ff99;
+  font-size: 24px;
+  margin-right: 20px;
+}
+
+.header button {
+  background: none;
+  border: none;
+  color: #fff;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.header button.active {
+  background-color: #00ff99;
+  color: #000;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.icons {
+  margin-left: auto;
+}
+
+.main {
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+}
+
+.project-site, .communication-hub, .action-center {
+  flex: 1;
+  background-color: #222;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  border-radius: 10px;
+}
+
+.map {
+  background-color: #333;
+}
+
+.weather {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.stats {
+  display: flex;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.capacity, .progress {
+  background-color: #333;
+  padding: 10px;
+  border-radius: 5px;
+  flex: 1;
+}
+
+.progress-bar {
+  background-color: #444;
+  height: 10px;
+  border-radius: 5px;
+}
+
+.progress-bar > div {
+  background-color: #00ff99;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.tabs button {
+  background: none;
+  border: none;
+  color: #fff;
+  margin-right: 10px;
+}
+
+.tabs button.active {
+  background-color: #333;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.insight, .action-item {
+  background-color: #333;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+.priority {
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+.priority.high {
+  background-color: #ff4d4d;
+}
+
+.priority.medium {
+  background-color: #ffcc00;
+}
+
+.priority.normal {
+  background-color: #00ff99;
+}
+
+.type {
+  background-color: #007bff;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+.buttons button {
+  background-color: #444;
+  border: none;
+  color: #fff;
+  padding: 5px 10px;
+  margin-right: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.buttons button:hover {
+  background-color: #555;
+}
+
+.modal-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  background-color: #1a1a1a;
+  padding: 20px;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.modal-tabs button {
+  background: none;
+  border: none;
+  color: #fff;
+}
+
+.modal-tabs button.active {
+  background-color: #333;
+}
+
+.project-list {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  float: left;
+}
+
+.project-item {
+  padding: 10px;
+  background-color: #333;
+  margin-bottom: 5px;
+}
+
+.project-item.active {
+  background-color: #00ff99;
+  color: #000;
+}
+
+.schematic {
+  display: flex;
+  flex-direction: column;
+}
+
+.flow {
+  display: flex;
+  gap: 10px;
+}
+
+.stage {
+  background-color: #333;
+  padding: 10px;
+  border-radius: 5px;
+  flex: 1;
+}
+
+.subitem {
+  padding: 5px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+.subitem.complete {
+  background-color: #00cc66;
+}
+
+.subitem.in-progress {
+  background-color: #ffcc00;
+}
+
+.subitem.warning {
+  background-color: #ff4d4d;
+}
+
+.modal-footer {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.modal-footer button {
+  background-color: #00ff99;
+  border: none;
+  padding: 10px 20px;
+  margin-left: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
