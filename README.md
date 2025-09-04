@@ -37,6 +37,9 @@ Additionally, you need a Google Maps API key for the `ProjectSite` map functiona
 
 ## Functionality
 
+1.Open Daily site briefing by clicking on daily site brifing on top
+2.Added Google map API to show map
+
 **API Endpoints**
 
 GET /api/projects
@@ -70,3 +73,4 @@ Retrieves briefing data for the project (e.g., stages, completion).
 
 ## Daily-Site-Briefing
 1.Open Daily site briefing by clicking on daily site brifing on top
+2.Added Google map API to show map
