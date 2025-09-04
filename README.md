@@ -37,8 +37,8 @@ Additionally, you need a Google Maps API key for the `ProjectSite` map functiona
 
 ## Functionality
 
-1.Open Daily site briefing by clicking on daily site brifing on top
-2.Added Google map API to show map
+- **Open Daily site briefing by clicking on daily site brifing on top**
+- **Added Google map API to show map**
 
 **API Endpoints**
 
