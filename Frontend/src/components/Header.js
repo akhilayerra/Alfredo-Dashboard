@@ -7,6 +7,7 @@ function Header({ onOpenModal }) {
       <button className="active">Command Centre</button>
       <button>Reporting & Compliance</button>
       <button onClick={onOpenModal}>Daily Site Briefing</button>
+      <button style={{ background: 'none', border: 'none', cursor: 'pointer', color:"#ffffff",fontSize:"24px" }}> &#x2190;</button>
       <div className="icons">
         <span>🔔</span>
         <span>👤</span>

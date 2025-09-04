@@ -11,8 +11,8 @@ Before running the application, ensure you have the following installed:
 
 Additionally, you need a Google Maps API key for the `ProjectSite` map functionality. Replace the placeholder `AIzaSyB98DGX2EPB_v6VZz7C9ozFGuD5j_h4l8s` in `ProjectSite.js` with your own key. Obtain one from the [Google Cloud Console](https://console.cloud.google.com/).
 
-## Installation
-    (backend)
+## Installation(backend)
+    
 1. **Clone the Repository**
    ```bash
    git clone https://github.com/your-username/alfred-dashboard.git
@@ -25,10 +25,48 @@ Additionally, you need a Google Maps API key for the `ProjectSite` map functiona
     Flask-CORS==4.0.0
     Flask-SocketIO==5.3.2
 
-(Frontend)
-3.**installation**
+    .env file
+    FLASK_APP=app.py
+    FLASK_ENV=development
+
+
+
+3.**installation(Frontend)**
     npm install
     npm start----to start application
 
 ## Functionality
 
+**API Endpoints**
+
+GET /api/projects
+
+Retrieves all projects with their insights and actions.
+
+
+GET /api/projects/int:id
+
+Retrieves details for a specific project by ID.
+
+
+POST /api/projects/int:id/insights
+
+Adds a new insight to the project.
+
+
+POST /api/projects/int:id/actions
+
+Adds a new action to the project.
+
+
+POST /api/projects/int:id/risks
+
+Flags an insight as a risk, adding it to the action list.
+
+
+GET /api/projects/int:id/briefing
+
+Retrieves briefing data for the project (e.g., stages, completion).
+
+## Daily-Site-Briefing
+1.Open Daily site briefing by clicking on daily site brifing on top
